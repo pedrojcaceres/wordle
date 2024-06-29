@@ -88,6 +88,10 @@ button:disabled {
     margin: 30px;
 }
 
+.text-red {
+    color: red;
+}
+
 /* FOOTER */
 .footer {
     width: 100%;
@@ -95,4 +99,5 @@ button:disabled {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
