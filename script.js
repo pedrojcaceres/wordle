@@ -1,5 +1,5 @@
 
-let intentos = 6;
+let intentos = 2;
 const button = document.getElementById("guess-button");
 const input = document.getElementById("guess-input");
 const valor = input.value;
@@ -99,7 +99,7 @@ function reiniciarJuego() {
     contenedor.innerHTML = '';
     GRID.innerHTML = '';
 
-    intentos = 6;
+    intentos = 2;
     palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
     console.log(palabra);
 }
